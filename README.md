@@ -42,7 +42,7 @@ const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
 ```
 
 **Why client-side?**
-- **Reduces server load** – No heavy audio processing on the server
+- **Reduces server load** – No heavy audio processing on the server in case we go for scaling in the future.
 - **Lower bandwidth** – Only necessary chunks are uploaded
 - **No FFmpeg dependency** – Works in browser without native binaries
 - **Serverless compatible** – Works with Vercel/edge functions
@@ -57,11 +57,6 @@ The `/api/transcribe` route acts as a proxy to Groq's API:
 Client → Next.js API Route → Groq Whisper API
 ```
 
-**Why not call Groq directly from client?**
-- **Security** – API key stays server-side, never exposed to browser
-- **Rate limiting** – Can add request throttling at the proxy layer
-- **Error handling** – Centralized error transformation and logging
-- **Flexibility** – Can switch providers without client changes
 
 ### Retry with Exponential Backoff
 
