@@ -4,12 +4,12 @@ A web application that transcribes audio files to text using the Groq Whisper AP
 
 ## Features
 
-- 🎵 **Multi-format support** – MP3, MP4, WAV, WebM, M4A, OGG, FLAC, and more
-- ⏱️ **Timestamped transcriptions** – Per-segment timestamps for navigation
-- 📦 **Automatic chunking** – Handles long audio files (>5 min or >25MB)
-- 🌍 **20+ languages** – Including auto-detection
-- 📥 **Export to TXT** – Download transcriptions with timestamps
-- 🔄 **Retry logic** – Handles transient network failures gracefully
+-  **Multi-format support** – MP3, MP4, WAV, WebM, M4A, OGG, FLAC, and more
+-  **Timestamped transcriptions** – Per-segment timestamps for navigation
+-  **Automatic chunking** – Handles long audio files (>5 min or >25MB)
+-  **20+ languages** – Including auto-detection
+-  **Export to TXT** – Download transcriptions with timestamps
+-  **Retry logic** – Handles transient network failures gracefully
 
 ---
 
