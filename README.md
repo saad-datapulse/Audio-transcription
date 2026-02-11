@@ -230,14 +230,11 @@ src/
 
 ## Future Improvements
 
-- [ ] Audio format conversion (FFmpeg.wasm)
-- [ ] Concurrent upload queue
-- [ ] Speaker diarization
-- [ ] SRT/VTT subtitle export
-- [ ] Audio recording from microphone
+-  Audio format conversion (FFmpeg.wasm)
+-  Concurrent upload queue
+-  Speaker diarization
+-  SRT/VTT subtitle export
+-  Audio recording from microphone
 
 ---
 
-## License
-
-MIT
